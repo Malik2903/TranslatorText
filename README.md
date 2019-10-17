@@ -12,6 +12,7 @@ Pre-requisites -
 - MS Visual Studio 2017.
 - Basic Knowledge of MVC.
 
+STEPS - 
  - Paste the TranslatorTextController.cs in Controllers folder.
  - Click on ADD VIEW option for Index Method in the Controller and name the View as Index itself.
  - Paste the Index.cshtml file content in the view.
