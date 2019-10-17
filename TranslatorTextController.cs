@@ -20,7 +20,8 @@ namespace ContentMGR.Controllers
 
         public async Task<string> Translate(string text)
         {
-            string key = "f18454e6276547169a81daac71ab706f";
+            string key = "--YOUR KEY--";
+            // TO TRANSLATE INTO ----- &to=it&to=de&to=es&to=zh-Hans&to=ar---------in the link below:--- 
             string uri = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=it&to=de&to=es&to=zh-Hans&to=ar";
             System.Object[] body = new System.Object[] { new { Text = text } };
             var requestBody = JsonConvert.SerializeObject(body);
