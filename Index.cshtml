@@ -1,0 +1,42 @@
+﻿<section id="Enter" class="col-md-5">
+    <textarea id="enterText"></textarea>
+</section>
+
+<section id="button" class="col-md-2">
+    <button class="btn btn-primary" onclick="TransalteText()">Translate</button>
+</section>
+
+<section id="display1" class="col-md-5">
+    <label>Italian</label>
+    <textarea id="translatedText_it"></textarea>
+</section>
+
+<section id="display2" class="col-md-offset-7 col-md-5">
+    <label>German</label>
+    <textarea id="translatedText_de"></textarea>
+</section>
+
+<section id="display3" class="col-md-offset-7 col-md-5">
+    <label>Spanish</label>
+    <textarea id="translatedText_es"></textarea>
+</section>
+
+<section id="display4" class="col-md-offset-7 col-md-5">
+    <label>Chinese</label>
+    <textarea id="translatedText_chinese"></textarea>
+</section>
+
+<section id="display5" class="col-md-offset-7 col-md-5">
+    <label>Arabic</label>
+    <textarea id="translatedText_ar"></textarea>
+</section>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryuijs")
+    @Scripts.Render("~/bundles/unobtrusive")
+}
+
+<script src="~/Scripts/TranslatorText.js"></script>
